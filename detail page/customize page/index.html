@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Editor</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container disable">
+        <a class="back-btn" href="../product-sidebar.html" ><i class="fas fa-arrow-left"></i> Back</a>
+        <h2>AWErsOME Pannel Editor</h2>
+        <div class="wrapper">
+            <div class="editor-pan1">
+                <div class="filter">
+                    <label class="title">Edit Menu</label>
+                    <div class="options">
+                        <button id="Brightness" class="active">x-Axis</button>
+                        <button id="Saturation">Y-Axis</button>
+                        <button id="Inversion">z-axis</button>
+                        <button id="Grayscale">Height/width</button>
+                    </div>
+                    <div class="slider">
+                        <div class="filter-info">
+                            <p class="name">Brightness</p>
+                            <p class="value">100%</p>
+                        </div>
+                        <input type="range" value="100" min="0" max="200">
+                        
+                    </div>
+                   
+                </div>
+                <div class="rotate">
+                    <label class="title">Rotate & Flip</label>
+                    <div class="options">
+                        <button id="left"> <i class="fa-solid fa-rotate-left"></i> </button>
+                        <button id="right"><i class="fa-solid fa-rotate-right"></i></button>
+                        <button id="horizontal"> <i class="bx bx-reflect-vertical"></i> </button>
+                        <button id="vertical"><i class="bx bx-reflect-horizontal"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="preview-img">
+                <img src="./dotted-bg-PNG.svg" alt="">
+            </div>
+        </div>
+        <div class="controls">
+            <button class="reset-filter">Reset Setting</button>
+            <div class="row">
+                <input type="file" class="file-input" accept="images/*" hidden>
+                
+                <button class="choose-img">Choose Pannel</button>
+                <button class="save-img" href="/shopping-cart.html">Add To cart</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script> -->
+    <script src="./script.js"></script>
+</body>
+
+</html>

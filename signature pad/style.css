@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ 
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right bottom, white, white);
+    
+}
+.back-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+.back-btn:hover {
+    background-color: green;}
+
+.back-btn i {
+    margin-right: 8px;
+}*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+html {
+  font: 18px "Helvetica Neue", sans-serif;
+}
+
+body {
+  text-align: center;
+}
+
+.signature-component {
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+}
+.signature-component h1 {
+  margin-bottom: 0;
+}
+.signature-component h2 {
+  margin: 0;
+  font-size: 100%;
+}
+.signature-component button {
+  padding: 1em;
+  background: transparent;
+  box-shadow: 2px 2px 4px #777;
+  margin-top: 0.5em;
+  border: 1px solid #777;
+  font-size: 1rem;
+}
+.signature-component button.toggle {
+  background: rgba(11, 241, 15, 0.2);
+}
+.signature-component canvas {
+  display: block;
+  position: relative;
+  border: 1px solid;
+}
+.signature-component img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+
+
+
+
+
+
+
+

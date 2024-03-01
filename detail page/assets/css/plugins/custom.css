@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .wall {
+    width: 430px;
+    height: 543px;
+    margin-top: 20px;
+    padding: 20px;
+    max-width: 429px;
+    min-width: 100px;
+  
+    max-height: none;
+    min-height: none;
+    overflow: hidden; /* Add overflow: hidden to clip content that exceeds the dimensions */
+}
+
+.product-gallery {
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 0px;
+    min-height: 0;
+}
+
+/* Additional: Set max dimensions for the child image */
+.product-gallery img {
+    max-width: 429px;
+    max-height: 543px;
+}
+
+
+
